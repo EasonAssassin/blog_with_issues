@@ -8,18 +8,20 @@ from github import Github
 from feedgen.feed import FeedGenerator
 from lxml.etree import CDATA
 
-MD_HEAD = """## Gitblog
-My personal blog using issues and GitHub Actions (随意转载，无需署名)
-[RSS Feed](https://raw.githubusercontent.com/{repo_name}/main/feed.xml)
+MD_HEAD = """## 博客
+我的个人博客，使用Github issues和Actions实现：\n
+- 通过issues或commits触发
+- 自动生成README.md
+- 自动归档博客文档至BACKUP目录
 """
 
 BACKUP_DIR = "BACKUP"
 ANCHOR_NUMBER = 5
-# 置顶标签：此标签的blog链接置于顶部
+# 置顶标签：对应【置顶文章】
 TOP_ISSUES_LABELS = ["TOP"]
-# 待办标签：此标签的blog链接置于底部
+# 待办标签：对应【待办事项】
 TODO_ISSUES_LABELS = ["TODO"]
-# 友情链接标签：暂时弃用
+# 友情链接标签：对应【友情链接】，暂时弃用
 FRIENDS_LABELS = ["Friends"]
 # 其他标签：根据add_md_label方法按顺序展示blog链接
 
@@ -132,7 +134,7 @@ def add_md_todo(repo, md, me):
     if not TODO_ISSUES_LABELS or not todo_issues:
         return
     with open(md, "a+", encoding="utf-8") as md:
-        md.write("## TODO\n")
+        md.write("## 待办事项\n")
         for issue in todo_issues:
             if is_me(issue, me):
                 todo_title, todo_list = parse_TODO(issue)
@@ -176,7 +178,7 @@ def add_md_recent(repo, md, me, limit=5):
     with open(md, "a+", encoding="utf-8") as md:
         # one the issue that only one issue and delete (pyGitHub raise an exception)
         try:
-            md.write("## Latest\n")
+            md.write("## 最近更新\n")
             for issue in repo.get_issues():
                 if is_me(issue, me):
                     add_issue_info(issue, md)
