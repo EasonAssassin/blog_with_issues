@@ -274,6 +274,7 @@ def main(token, repo_name, issue_number=None, dir_name=BACKUP_DIR):
     # add to readme one by one, change order here
     add_md_header("README.md", repo_name)
     # for func in [add_md_firends, add_md_top, add_md_recent, add_md_label, add_md_todo]:
+    # 按照TOP标签、最近更新、其他标签、TODO标签来对首页README.md中的blog链接进行展示
     for func in [add_md_top, add_md_recent, add_md_label, add_md_todo]:
             func(repo, "README.md", me)
 
