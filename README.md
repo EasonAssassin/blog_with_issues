@@ -1,7 +1,7 @@
 ## Gitblog
 My personal blog using issues and GitHub Actions (随意转载，无需署名)
 [RSS Feed](https://raw.githubusercontent.com/EasonAssassin/blog_with_issues/main/feed.xml)
-## 最近更新
+## Latest
 - [Go语言学习计划](https://github.com/EasonAssassin/blog_with_issues/issues/4)--2023-02-27
 - [前端学习的计划](https://github.com/EasonAssassin/blog_with_issues/issues/3)--2023-02-27
 - [日常环境治理脑图](https://github.com/EasonAssassin/blog_with_issues/issues/2)--2023-02-27
