@@ -36,3 +36,7 @@
 - 通过本地的markdown编辑器编写blog
 - 复制blog中的内容，并创建对应的issue
 - 配置blog对应的标签（如有）
+
+---
+
+测试下comments
