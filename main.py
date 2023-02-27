@@ -15,9 +15,14 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 
 BACKUP_DIR = "BACKUP_ORI"
 ANCHOR_NUMBER = 5
-TOP_ISSUES_LABELS = ["Top"]
+# 置顶标签：此标签的blog链接置于顶部
+TOP_ISSUES_LABELS = ["TOP"]
+# 待办标签：此标签的blog链接置于底部
 TODO_ISSUES_LABELS = ["TODO"]
+# 友情链接标签：暂时弃用
 FRIENDS_LABELS = ["Friends"]
+# 其他标签：根据add_md_label方法按顺序展示blog链接
+
 IGNORE_LABELS = FRIENDS_LABELS + TOP_ISSUES_LABELS + TODO_ISSUES_LABELS
 
 FRIENDS_TABLE_HEAD = "| Name | Link | Desc | \n | ---- | ---- | ---- |\n"
@@ -127,7 +132,7 @@ def add_md_todo(repo, md, me):
     if not TODO_ISSUES_LABELS or not todo_issues:
         return
     with open(md, "a+", encoding="utf-8") as md:
-        md.write("## TODO\n")
+        md.write("## 待办事项\n")
         for issue in todo_issues:
             if is_me(issue, me):
                 todo_title, todo_list = parse_TODO(issue)
@@ -165,6 +170,7 @@ def add_md_firends(repo, md, me):
         md.write(s)
 
 
+# 展示最近更新的5个blog
 def add_md_recent(repo, md, me, limit=5):
     count = 0
     with open(md, "a+", encoding="utf-8") as md:
@@ -267,10 +273,11 @@ def main(token, repo_name, issue_number=None, dir_name=BACKUP_DIR):
     repo = get_repo(user, repo_name)
     # add to readme one by one, change order here
     add_md_header("README.md", repo_name)
-    for func in [add_md_firends, add_md_top, add_md_recent, add_md_label, add_md_todo]:
-        func(repo, "README.md", me)
+    # for func in [add_md_firends, add_md_top, add_md_recent, add_md_label, add_md_todo]:
+    for func in [add_md_top, add_md_recent, add_md_label, add_md_todo]:
+            func(repo, "README.md", me)
 
-    generate_rss_feed(repo, "feed.xml", me)
+    # generate_rss_feed(repo, "feed.xml", me)
     to_generate_issues = get_to_generate_issues(repo, dir_name, issue_number)
 
     # save md files to backup folder
