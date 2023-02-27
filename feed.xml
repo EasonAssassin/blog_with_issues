@@ -1,2 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<feed xmlns="http://www.w3.org/2005/Atom"><id>https://github.com/EasonAssassin/blog_with_issues</id><title>RSS feed of EasonAssassin's blog_with_issues</title><updated>2023-02-27T05:32:08.099369+00:00</updated><author><name>EasonAssassin</name><email>782806166@qq.com</email></author><link href="https://github.com/EasonAssassin/blog_with_issues"/><link href="https://raw.githubusercontent.com/EasonAssassin/blog_with_issues/master/feed.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator></feed>
+<feed xmlns="http://www.w3.org/2005/Atom"><id>https://github.com/EasonAssassin/blog_with_issues</id><title>RSS feed of EasonAssassin's blog_with_issues</title><updated>2023-02-27T05:38:44.757104+00:00</updated><author><name>EasonAssassin</name><email>782806166@qq.com</email></author><link href="https://github.com/EasonAssassin/blog_with_issues"/><link href="https://raw.githubusercontent.com/EasonAssassin/blog_with_issues/master/feed.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator><entry><id>https://github.com/EasonAssassin/blog_with_issues/issues/1</id><title>初次使用issues写博客</title><updated>2023-02-27T05:38:45.007578+00:00</updated><content type="html"><![CDATA[<blockquote>
+<p>参考：<a href="https://www.jianshu.com/p/8f1079b7efe1">https://www.jianshu.com/p/8f1079b7efe1</a></p>
+</blockquote>
+<ul>
+<li>
+配置后发现README.md未生成，查看Actions发现是push denied：原因在于github actions对项目没有写入权限。<ul>
+<li>需要到项目的settings -&gt; Actions -&gt; General -&gt; Workflow permissions -&gt; 勾选read and write permissions
+<img src="https://user-images.githubusercontent.com/26082007/221483119-c4f32b19-ab64-42fc-845f-203e5e0cb773.png" alt="image" /></li>
+</ul>
+</li>
+</ul>
+]]></content><link href="https://github.com/EasonAssassin/blog_with_issues/issues/1" rel="alternate"/><published>2023-02-27T05:38:15+00:00</published></entry></feed>
