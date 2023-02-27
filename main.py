@@ -294,7 +294,7 @@ def save_issue(issue, me, dir_name=BACKUP_DIR):
         f.write(f"# [{issue.title}]({issue.html_url})\n\n")
         f.write(issue.body)
         if issue.comments:
-            f.write(f"# Comments in issues")
+            f.write(f"# Comments in issues\n\n")
             for c in issue.get_comments():
                 if is_me(c, me):
                     f.write("\n\n---\n\n")
