@@ -176,7 +176,7 @@ def add_md_recent(repo, md, me, limit=5):
     with open(md, "a+", encoding="utf-8") as md:
         # one the issue that only one issue and delete (pyGitHub raise an exception)
         try:
-            md.write("## 最近更新\n")
+            md.write("## Latest\n")
             for issue in repo.get_issues():
                 if is_me(issue, me):
                     add_issue_info(issue, md)
