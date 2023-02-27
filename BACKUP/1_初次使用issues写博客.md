@@ -1,7 +1,5 @@
 # [初次使用issues写博客](https://github.com/EasonAssassin/blog_with_issues/issues/1)
 
-# [初次使用issues写博客](https://github.com/EasonAssassin/blog_with_issues/issues/1)
-
 ## 目标
 
 - 根据issues标签自动编排README.md中的blog链接
@@ -35,7 +33,7 @@
 
 - 通过本地的markdown编辑器编写blog
 - 复制blog中的内容，并创建对应的issue
-- 配置blog对应的标签（如有）
+- 配置blog对应的标签（如有）# Comments in issues
 
 ---
 
