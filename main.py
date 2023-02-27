@@ -13,7 +13,7 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 [RSS Feed](https://raw.githubusercontent.com/{repo_name}/main/feed.xml)
 """
 
-BACKUP_DIR = "BACKUP_ORI"
+BACKUP_DIR = "BACKUP"
 ANCHOR_NUMBER = 5
 # 置顶标签：此标签的blog链接置于顶部
 TOP_ISSUES_LABELS = ["TOP"]
