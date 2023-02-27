@@ -1,5 +1,14 @@
 # [初次使用issues写博客](https://github.com/EasonAssassin/blog_with_issues/issues/1)
 
+# 目标
+
+- 根据issues标签自动编排README.md中的blog链接
+- 我当前的blog链接编排布局如下：
+   - Gitblog：首行
+   - 最近更新：根据创建日期选取最近的5篇blog
+   - 其他标签：其他自定义标签所对应的blog
+   - TODO：根据TODO标签所展示的blog
+
 ## 步骤参考
 
 > https://www.jianshu.com/p/8f1079b7efe1
@@ -17,3 +26,10 @@
 ![img.png](img.png)
 
 - 首页README.md的博客链接编排请参考main.py中的main方
+
+## 最佳实践
+
+- 通过本地的markdown编辑器编写blog
+- blog文件放到项目BACKUP目录中
+- 复制blog中的内容，并创建对应的issue
+- 配置blog对应的标签（如有）
