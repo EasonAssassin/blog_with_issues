@@ -103,7 +103,7 @@ def parse_TODO(issue):
     if not todo_undone:
         return f"[{issue.title}]({issue.html_url}) all done", []
     return (
-        f"[{issue.title}]({issue.html_url})--{len(todo_undone)} jobs to do--{len(todo_done)} jobs done",
+        f"[{issue.title}]({issue.html_url})【{len(todo_undone)} jobs to do--{len(todo_done)} jobs done】",
         todo_done + todo_undone,
     )
 
