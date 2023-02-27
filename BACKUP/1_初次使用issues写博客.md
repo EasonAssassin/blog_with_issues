@@ -5,7 +5,7 @@
 ## 目标
 
 - 根据issues标签自动编排README.md中的blog链接
-- 自动将isuues生成的文档放到项目BACKUP目录下
+- 自动将isuues生成的博客文档备份到项目BACKUP目录下
 - 我当前的blog链接编排布局如下：
    - Gitblog：首行
    - 最近更新：根据创建日期选取最近的5篇blog
