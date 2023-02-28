@@ -12,8 +12,9 @@
 ## DEVOPS
 - [日常环境治理脑图](https://github.com/EasonAssassin/blog_with_issues/issues/2)--2023-02-27
 ## 待办事项
-TODO list from [学习计划--Go语言](https://github.com/EasonAssassin/blog_with_issues/issues/4)【1 jobs to do--0 jobs done】
+TODO list from [学习计划--Go语言](https://github.com/EasonAssassin/blog_with_issues/issues/4)【2 jobs to do--0 jobs done】
 - [ ] Kubernetes API学习
+- [ ] [kubernetes二次开发实战](https://www.bilibili.com/video/BV1Np4y1W7rD?p=1&vd_source=99bae05747e5682b2ad99805f18aff51)
 
 TODO list from [学习计划--前端](https://github.com/EasonAssassin/blog_with_issues/issues/3)【2 jobs to do--0 jobs done】
 - [ ] Vue
