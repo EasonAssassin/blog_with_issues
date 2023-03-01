@@ -174,27 +174,17 @@ def add_md_firends(repo, md, me):
 
 # 展示最近更新的5个blog
 def add_md_recent(repo, md, me, limit=5):
-    labels = get_repo_labels(repo)
-    # sort lables by description info if it exists, otherwise sort by name,
-    # for example, we can let the description start with a number (1#Java, 2#Docker, 3#K8s, etc.)
-    labels = sorted(labels, key=lambda x: (x.description is None, x.description == "", x.description, x.name))
-
     count = 0
     with open(md, "a+", encoding="utf-8") as md:
         # one the issue that only one issue and delete (pyGitHub raise an exception)
         try:
             md.write("## 最近更新\n")
-            for label in labels:
-                # we don't need add TO DO labels again
-                if label.name in TODO_ISSUES_LABELS:
-                    continue
-
-                for issue in repo.get_issues():
-                    if is_me(issue, me):
-                        add_issue_info(issue, md)
-                        count += 1
-                        if count >= limit:
-                            break
+            for issue in repo.get_issues():
+                if is_me(issue, me):
+                    add_issue_info(issue, md)
+                    count += 1
+                    if count >= limit:
+                        break
         except:
             return
 
