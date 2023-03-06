@@ -11,6 +11,7 @@
 - [日常环境治理脑图](https://github.com/EasonAssassin/blog_with_issues/issues/2)--2023-02-27
 - [初次使用issues写博客](https://github.com/EasonAssassin/blog_with_issues/issues/1)--2023-02-27
 ## DEVOPS
+- [开发模式探讨](https://github.com/EasonAssassin/blog_with_issues/issues/5)--2023-03-06
 - [日常环境治理脑图](https://github.com/EasonAssassin/blog_with_issues/issues/2)--2023-02-27
 ## 待办事项
 TODO list from [学习计划--Go语言](https://github.com/EasonAssassin/blog_with_issues/issues/4)【2 jobs to do--0 jobs done】
