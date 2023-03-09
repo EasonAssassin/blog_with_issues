@@ -1,6 +1,5 @@
 # [Mac小技巧](https://github.com/EasonAssassin/blog_with_issues/issues/6)
 
-
 > 小技巧系列：我个人使用mac时常用的软件和技巧
 
 ## 1. OmniGraffle绘图软件
@@ -126,6 +125,9 @@ esac
 - 使用：`gta "this is test" #即git commit -m "this is test" && git push origin ***`
 
 ## 6. Gvm管理go版本
+
+> gvm的本质是shell脚本。其安装go的原理是通过下载github上go的源码，通过git标签的方式来检测go的版本，然后通过源码编译的方式来安装go。
+> 所以跟github源码地址的网络连通性，将是决定gvm安装是否顺利的决定性因素。
 
 - 安装：`brew install gvm`
 - 加速：编辑`vim ~/.gvm/scripts/install`
