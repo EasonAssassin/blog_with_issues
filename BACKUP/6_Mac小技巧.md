@@ -140,3 +140,50 @@ GO_BINARY_BASE_URL=${GO_BINARY_BASE_URL:-"https://golang.google.cn/dl/"}
 - 查看全部版本：`gvm listall`
 - 下载指定版本：`gvm install go1.20.2`
 - 使用指定版本：`gvm use go1.20.2 --default`
+
+## 7. Bartender
+
+> 用于整理mac右上角图表的工具
+
+- 下载：https://xclient.info/s/bartender.html
+
+![image](https://user-images.githubusercontent.com/26082007/223954618-c9d4274d-c21e-4b35-82a4-5243d29c3e8c.png)
+
+
+## 8. Lx-music-desktop
+
+> 用于免费听所有完整音乐的神器
+
+- 下载：https://github.com/lyswhut/lx-music-desktop/releases
+
+## 9. QuickTimePlayer和iMovie剪辑
+
+> 我主要用来做录屏教程分享
+
+- 下载：官方App Store下载
+- 使用`shift + command + 5`调用QuickTimePlayer进行录屏，得到`.mov`的视频
+- `.mov`视频仅能在mac上面识别
+- 通过iMovie进行剪辑
+- 导出转化成`.mp4`文件：`文件 -> 共享 -> 文件...`
+
+## 10. 翻页时钟
+
+> 锁屏界面显示时钟
+
+- 下载：App Store
+
+## 11. 日历Fantastical 
+
+> 功能更强大的日历软件
+
+- 下载：https://xclient.info/s/fantastical.html
+
+![image](https://user-images.githubusercontent.com/26082007/223973586-444bb72f-c725-4f5c-b91b-4fae13a05c14.png)
+
+## 12. iStatistica
+
+> 显示mac网络、内存、CPU等信息
+
+- 下载：https://xclient.info/s/istatistica-pro.html
+
+![image](https://user-images.githubusercontent.com/26082007/223982037-22d351a6-d26e-476c-9513-85a590fba34e.png)
