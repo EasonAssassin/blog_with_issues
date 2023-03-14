@@ -187,3 +187,12 @@ GO_BINARY_BASE_URL=${GO_BINARY_BASE_URL:-"https://golang.google.cn/dl/"}
 - 下载：https://xclient.info/s/istatistica-pro.html
 
 ![image](https://user-images.githubusercontent.com/26082007/223982037-22d351a6-d26e-476c-9513-85a590fba34e.png)
+
+## 13. Paste
+
+> 记录剪贴板历史
+
+## 14. Manico
+
+> 自定义mac上各种app快捷键
+
