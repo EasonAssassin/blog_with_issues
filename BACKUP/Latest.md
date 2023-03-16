@@ -1,3 +1,9 @@
+<style>
+    <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=7VuDJtnt0IGkUS1uYneOF7JJ8lXJuzkE93uO9Hyoe0k&cl=ffffff&w=a"></script>
+</style>
+
+<script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=7VuDJtnt0IGkUS1uYneOF7JJ8lXJuzkE93uO9Hyoe0k&cl=ffffff&w=a"></script>
+
 # Mac小技巧
 
 > 小技巧系列：我个人使用mac时常用的软件和技巧
@@ -137,8 +143,3 @@ GO_BINARY_BASE_URL=${GO_BINARY_BASE_URL:-"https://golang.google.cn/dl/"}
 - 查看全部版本：`gvm listall`
 - 下载指定版本：`gvm install go1.20.2`
 - 使用指定版本：`gvm use go1.20.2 --default`
-
-<script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=7VuDJtnt0IGkUS1uYneOF7JJ8lXJuzkE93uO9Hyoe0k&cl=ffffff&w=a"></script>
-<style>
-    <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=7VuDJtnt0IGkUS1uYneOF7JJ8lXJuzkE93uO9Hyoe0k&cl=ffffff&w=a"></script>
-</style>
