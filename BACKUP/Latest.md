@@ -138,6 +138,7 @@ GO_BINARY_BASE_URL=${GO_BINARY_BASE_URL:-"https://golang.google.cn/dl/"}
 - 下载指定版本：`gvm install go1.20.2`
 - 使用指定版本：`gvm use go1.20.2 --default`
 
-<a href="https://clustrmaps.com/site/1btmg"  title="Visit tracker">
-<img src="//www.clustrmaps.com/map_v2.png?d=7VuDJtnt0IGkUS1uYneOF7JJ8lXJuzkE93uO9Hyoe0k&cl=ffffff" />
-</a>
+<script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=7VuDJtnt0IGkUS1uYneOF7JJ8lXJuzkE93uO9Hyoe0k&cl=ffffff&w=a"></script>
+<style>
+    <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=7VuDJtnt0IGkUS1uYneOF7JJ8lXJuzkE93uO9Hyoe0k&cl=ffffff&w=a"></script>
+</style>
