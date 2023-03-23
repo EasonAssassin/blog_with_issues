@@ -11,13 +11,20 @@
 - [开发模式探讨](https://github.com/EasonAssassin/blog_with_issues/issues/5)--2023-03-06
 - [学习计划--Go语言](https://github.com/EasonAssassin/blog_with_issues/issues/4)--2023-02-27
 ## DEVOPS
-- [学习计划--Devops](https://github.com/EasonAssassin/blog_with_issues/issues/8)--2023-03-23
 - [开发模式探讨](https://github.com/EasonAssassin/blog_with_issues/issues/5)--2023-03-06
 - [日常环境治理脑图](https://github.com/EasonAssassin/blog_with_issues/issues/2)--2023-02-27
 ## TIPS
 - [Git小技巧](https://github.com/EasonAssassin/blog_with_issues/issues/7)--2023-03-21
 - [Mac小技巧](https://github.com/EasonAssassin/blog_with_issues/issues/6)--2023-03-09
 ## 待办事项
+TODO list from [学习计划--Devops](https://github.com/EasonAssassin/blog_with_issues/issues/8)【6 jobs to do--0 jobs done】
+- [ ] CUE
+- [ ] OAM(Open Application Model) 
+- [ ] serverless对于devops的改进
+- [ ] OAM：云原生时代的应用模型与下一代 DevOps 技术（https://developer.aliyun.com/live/2020）
+- [ ] kubernetes CRD与聚合API学习与实践
+- [ ] kubernetes RBAC角色认证
+
 TODO list from [学习计划--Go语言](https://github.com/EasonAssassin/blog_with_issues/issues/4)【2 jobs to do--0 jobs done】
 - [ ] Kubernetes API学习
 - [ ] [kubernetes二次开发实战](https://www.bilibili.com/video/BV1Np4y1W7rD?p=1&vd_source=99bae05747e5682b2ad99805f18aff51)
