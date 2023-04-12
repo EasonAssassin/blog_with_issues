@@ -6,7 +6,7 @@
 - 自动归档博客文档至BACKUP目录
 ## 最近更新
 - [DevOps到底是个啥？](https://github.com/EasonAssassin/blog_with_issues/issues/9)--2023-04-12
-- [学习计划--Devops](https://github.com/EasonAssassin/blog_with_issues/issues/8)--2023-03-23
+- [学习计划--云原生&Devops](https://github.com/EasonAssassin/blog_with_issues/issues/8)--2023-03-23
 - [Git小技巧](https://github.com/EasonAssassin/blog_with_issues/issues/7)--2023-03-21
 - [Mac小技巧](https://github.com/EasonAssassin/blog_with_issues/issues/6)--2023-03-09
 - [开发模式探讨](https://github.com/EasonAssassin/blog_with_issues/issues/5)--2023-03-06
@@ -18,7 +18,7 @@
 - [Git小技巧](https://github.com/EasonAssassin/blog_with_issues/issues/7)--2023-03-21
 - [Mac小技巧](https://github.com/EasonAssassin/blog_with_issues/issues/6)--2023-03-09
 ## 待办事项
-TODO list from [学习计划--Devops](https://github.com/EasonAssassin/blog_with_issues/issues/8)【3 jobs to do--0 jobs done】
+TODO list from [学习计划--云原生&Devops](https://github.com/EasonAssassin/blog_with_issues/issues/8)【3 jobs to do--0 jobs done】
 - [ ] CUE
 - [ ] OAM模型（Open Application Model）：云原生时代的应用模型与下一代 DevOps 技术（https://developer.aliyun.com/live/2020）
 - [ ] serverless对于devops的改进
