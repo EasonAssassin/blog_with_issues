@@ -5,12 +5,13 @@
 - 自动生成README.md
 - 自动归档博客文档至BACKUP目录
 ## 最近更新
+- [DevOps到底是个啥？](https://github.com/EasonAssassin/blog_with_issues/issues/9)--2023-04-12
 - [学习计划--Devops](https://github.com/EasonAssassin/blog_with_issues/issues/8)--2023-03-23
 - [Git小技巧](https://github.com/EasonAssassin/blog_with_issues/issues/7)--2023-03-21
 - [Mac小技巧](https://github.com/EasonAssassin/blog_with_issues/issues/6)--2023-03-09
 - [开发模式探讨](https://github.com/EasonAssassin/blog_with_issues/issues/5)--2023-03-06
-- [学习计划--Go语言](https://github.com/EasonAssassin/blog_with_issues/issues/4)--2023-02-27
 ## DEVOPS
+- [DevOps到底是个啥？](https://github.com/EasonAssassin/blog_with_issues/issues/9)--2023-04-12
 - [开发模式探讨](https://github.com/EasonAssassin/blog_with_issues/issues/5)--2023-03-06
 - [日常环境治理脑图](https://github.com/EasonAssassin/blog_with_issues/issues/2)--2023-02-27
 ## TIPS
