@@ -17,14 +17,10 @@
 - [Git小技巧](https://github.com/EasonAssassin/blog_with_issues/issues/7)--2023-03-21
 - [Mac小技巧](https://github.com/EasonAssassin/blog_with_issues/issues/6)--2023-03-09
 ## 待办事项
-TODO list from [学习计划--Devops](https://github.com/EasonAssassin/blog_with_issues/issues/8)【7 jobs to do--0 jobs done】
+TODO list from [学习计划--Devops](https://github.com/EasonAssassin/blog_with_issues/issues/8)【3 jobs to do--0 jobs done】
 - [ ] CUE
-- [ ] OAM(Open Application Model) 
+- [ ] OAM模型（Open Application Model）：云原生时代的应用模型与下一代 DevOps 技术（https://developer.aliyun.com/live/2020）
 - [ ] serverless对于devops的改进
-- [ ] OAM：云原生时代的应用模型与下一代 DevOps 技术（https://developer.aliyun.com/live/2020）
-- [ ] kubernetes CRD与聚合API学习与实践
-- [ ] kubernetes RBAC角色认证实践
-- [ ] devstream：整合Devops工具链
 
 TODO list from [学习计划--Go语言](https://github.com/EasonAssassin/blog_with_issues/issues/4)【2 jobs to do--0 jobs done】
 - [ ] Kubernetes API学习
