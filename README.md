@@ -5,7 +5,7 @@
 - 自动生成README.md
 - 自动归档博客文档至BACKUP目录
 ## 最近更新
-- [深入剖析Kubernetes](https://github.com/EasonAssassin/blog_with_issues/issues/11)--2023-07-17
+- [深入剖析Kubernetes](https://github.com/EasonAssassin/blog_with_issues/issues/12)--2023-07-17
 - [学习计划--书籍](https://github.com/EasonAssassin/blog_with_issues/issues/10)--2023-04-21
 - [DevOps到底是个啥？](https://github.com/EasonAssassin/blog_with_issues/issues/9)--2023-04-12
 - [学习计划--云原生&Devops](https://github.com/EasonAssassin/blog_with_issues/issues/8)--2023-03-23
@@ -15,7 +15,7 @@
 - [开发模式探讨](https://github.com/EasonAssassin/blog_with_issues/issues/5)--2023-03-06
 - [日常环境治理脑图](https://github.com/EasonAssassin/blog_with_issues/issues/2)--2023-02-27
 ## K8S
-- [深入剖析Kubernetes](https://github.com/EasonAssassin/blog_with_issues/issues/11)--2023-07-17
+- [深入剖析Kubernetes](https://github.com/EasonAssassin/blog_with_issues/issues/12)--2023-07-17
 ## TIPS
 - [Git小技巧](https://github.com/EasonAssassin/blog_with_issues/issues/7)--2023-03-21
 - [Mac小技巧](https://github.com/EasonAssassin/blog_with_issues/issues/6)--2023-03-09
